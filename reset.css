@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body{
+    background:#eee;
+    font-family:'PT Sans', sans-serif;
+}
+.shadow{
+    box-shadow:3px 5px 25px #999;
+}
+.white-bg{
+    background:white;
+}
+.place-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta{
+    border:1px solid black;
+    transition: all .3s;
+}  
+.cta:hover{
+    background:black;
+    color:white;
+}
