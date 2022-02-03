@@ -16,7 +16,7 @@ body{
 }
 .cta{
     border:1px solid black;
-    transition: all .3s;
+    transition: all .2s;
 }  
 .cta:hover{
     background:black;
