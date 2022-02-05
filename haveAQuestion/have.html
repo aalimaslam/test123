@@ -87,13 +87,23 @@
                 name="question-title"
                 class="my-1 form-control"
                 placeholder="Title"
+                required
               />
               <textarea
                 name="question-body"
                 class="my-1 form-control"
                 cols="30"
                 placeholder="Question Body"
+                required
               ></textarea>
+
+              <select class="custom-select my-1 mr-sm-2 col" name="language" id="inlineFormCustomSelect" required>
+                <option selected>Language</option>
+                <option value="1">JavaScript</option>
+                <option value="2">CSS</option>
+                <option value="3">HTML</option>
+              </select>
+
             </div>
             <div class="modal-footer">
               <button
