@@ -1,0 +1,7 @@
+.more-info::after{
+    content: '';
+    display: none;
+}
+.profile-name{
+    font-size: 1.5rem;
+}
